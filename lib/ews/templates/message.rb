@@ -35,6 +35,7 @@ module Viewpoint::EWS
         self.item_attachments ||= []
         self.inline_attachments ||= []
         self.extended_properties ||= []
+        self.categories ||= nil
       end
 
       def to_ews_basic
